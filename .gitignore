@@ -1,3 +1,22 @@
 venv
 .idea
 __pycache__
+
+# React UI
+instagram-clone-UI/node_modules/
+instagram-clone-UI/.pnp/
+instagram-clone-UI/.pnp.js
+
+instagram-clone-UI/coverage/
+instagram-clone-UI/build/
+
+instagram-clone-UI/.env.local
+instagram-clone-UI/.env.development.local
+instagram-clone-UI/.env.test.local
+instagram-clone-UI/.env.production.local
+
+instagram-clone-UI/npm-debug.log*
+instagram-clone-UI/yarn-debug.log*
+instagram-clone-UI/yarn-error.log*
+
+.DS_Store
