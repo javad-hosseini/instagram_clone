@@ -3,7 +3,7 @@ from sqlalchemy.orm import Session
 from starlette import status
 from db import db_user
 from db.database import get_db
-from router.schemas import UserDisplay, UserBase
+from routers.schemas import UserDisplay, UserBase
 
 router = APIRouter(
     prefix="/user",

@@ -2,7 +2,7 @@ from datetime import datetime
 
 from fastapi import HTTPException, status
 
-from router.schemas import PostBase
+from routers.schemas import PostBase
 from sqlalchemy.orm.session import Session
 from db.models import DBPost
 
